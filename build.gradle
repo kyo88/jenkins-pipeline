@@ -24,3 +24,9 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
+
+task hello {
+    doLast {
+        println 'Hello world!'
+    }
+}
