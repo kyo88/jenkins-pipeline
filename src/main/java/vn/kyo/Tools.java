@@ -14,7 +14,7 @@ public class Tools {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub check mail
+		// TODO Auto-generated method stub check mail  
 		System.out.println(validateMail("longta@gmail.com"));
 
 	}
