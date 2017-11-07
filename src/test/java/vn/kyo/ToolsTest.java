@@ -8,7 +8,14 @@ public class ToolsTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+//		assertEquals("Joined string didn't match", "1 2 3", Tools.validateMail(""));
+		assertTrue("True email", Tools.validateMail("longta@gmail.com"));
+//		fail("Not yet implemented");
+	}
+	
+	@Test
+	public void notEmail() {
+		assertFalse("False email", Tools.validateMail("longta@gmailcom"));
 	}
 
 }
